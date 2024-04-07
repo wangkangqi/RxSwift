@@ -809,9 +809,6 @@
 		DB0B922C26FB3569005CEED9 /* PrimitiveSequence+ConcurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0B922A26FB34D3005CEED9 /* PrimitiveSequence+ConcurrencyTests.swift */; };
 		DB8157D3264941B300164D4B /* UIApplication+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8157D2264941B200164D4B /* UIApplication+RxTests.swift */; };
 		DB8157E9264941EB00164D4B /* UIApplication+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8157E8264941EB00164D4B /* UIApplication+Rx.swift */; };
-		E3EBA0A72BC2912B006AF8E8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E3EBA0A62BC2912B006AF8E8 /* PrivacyInfo.xcprivacy */; };
-		E3EBA0A82BC2912B006AF8E8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E3EBA0A62BC2912B006AF8E8 /* PrivacyInfo.xcprivacy */; };
-		E3EBA0A92BC2912B006AF8E8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E3EBA0A62BC2912B006AF8E8 /* PrivacyInfo.xcprivacy */; };
 		ECBBA59B1DF8C0BA00DDDC2E /* UITabBarController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBA59A1DF8C0BA00DDDC2E /* UITabBarController+Rx.swift */; };
 		ECBBA59E1DF8C0D400DDDC2E /* RxTabBarControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBA59D1DF8C0D400DDDC2E /* RxTabBarControllerDelegateProxy.swift */; };
 		ECBBA5A11DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBA5A01DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift */; };
@@ -1472,7 +1469,6 @@
 		DB0B922A26FB34D3005CEED9 /* PrimitiveSequence+ConcurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrimitiveSequence+ConcurrencyTests.swift"; sourceTree = "<group>"; };
 		DB8157D2264941B200164D4B /* UIApplication+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+RxTests.swift"; sourceTree = "<group>"; };
 		DB8157E8264941EB00164D4B /* UIApplication+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Rx.swift"; sourceTree = "<group>"; };
-		E3EBA0A62BC2912B006AF8E8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ECBBA59A1DF8C0BA00DDDC2E /* UITabBarController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Rx.swift"; sourceTree = "<group>"; };
 		ECBBA59D1DF8C0D400DDDC2E /* RxTabBarControllerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTabBarControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		ECBBA5A01DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+RxTests.swift"; sourceTree = "<group>"; };
@@ -1635,7 +1631,6 @@
 		C8093C471B8A72BE0088E94D /* RxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E3EBA0A52BC29108006AF8E8 /* Resources */,
 				C85217E81E3374970015DD38 /* GroupedObservable.swift */,
 				C8093C491B8A72BE0088E94D /* Cancelable.swift */,
 				C8093C4D1B8A72BE0088E94D /* ConnectableObservableType.swift */,
@@ -2520,14 +2515,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3EBA0A52BC29108006AF8E8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E3EBA0A62BC2912B006AF8E8 /* PrivacyInfo.xcprivacy */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2850,7 +2837,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3EBA0A92BC2912B006AF8E8 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2858,7 +2844,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3EBA0A82BC2912B006AF8E8 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2908,7 +2893,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3EBA0A72BC2912B006AF8E8 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

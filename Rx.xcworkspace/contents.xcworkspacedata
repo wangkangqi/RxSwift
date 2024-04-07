@@ -112,6 +112,13 @@
          location = "group:Why.md">
       </FileRef>
    </Group>
+   <Group
+      location = "group:RxSwift/../Resources"
+      name = "Resources">
+      <FileRef
+         location = "group:Resources/PrivacyInfo.xcprivacy">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Rx.xcodeproj">
    </FileRef>
