@@ -23,6 +23,7 @@ Waiting for observable sequence to complete before exiting command line applicat
   s.tvos.deployment_target = '9.0'
 
   s.source_files          = 'RxBlocking/**/*.swift', 'Platform/**/*.swift'
+  s.resource_bundle = {"RxBlocking.privacy"=>"Pod/Privacy/RxBlocking/PrivacyInfo.xcprivacy"}
   s.exclude_files         = 'RxBlocking/Platform/**/*.swift'
 
   s.dependency 'RxSwift', '6.6.0'
