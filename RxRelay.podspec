@@ -23,7 +23,7 @@ Relays for RxSwift - PublishRelay, BehaviorRelay and ReplayRelay
   s.tvos.deployment_target = '9.0'
 
   s.source_files          = 'RxRelay/**/*.{swift,h,m}'
-  s.resource_bundle = { 'RxRelay' => "RxRelay/Resource/**/*"}
+  s.resource_bundle = { 'RxRelay' => "RxRelay/Resources/**/*"}
 
   s.dependency 'RxSwift', '6.6.0'
   s.swift_version = '5.1'

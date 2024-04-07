@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.header_dir            = "RxCocoa"
   s.source_files          = 'RxCocoa/**/*.{swift,h,m}', 'Platform/**/*.swift'
   s.exclude_files         = 'RxCocoa/Platform/**/*.swift', 'Platform/AtomicInt.swift'
-  s.resource_bundle = { 'RxCocoa' => "RxCocoa/Resource/**/*"}
+  s.resource_bundle = { 'RxCocoa' => "RxCocoa/Resources/**/*"}
   
   s.dependency 'RxSwift', '6.6.0'
   s.dependency 'RxRelay', '6.6.0'

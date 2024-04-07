@@ -34,7 +34,7 @@ gitDiff().grep("bug").less          // sequences of swift objects
 
   s.source_files          = 'RxSwift/**/*.swift', 'Platform/**/*.swift'
   s.exclude_files         = 'RxSwift/Platform/**/*.swift'
-  s.resource_bundle = { 'RxSwift' => "RxSwift/Resource/**/*"}
+  s.resource_bundle = { 'RxSwift' => "RxSwift/Resources/**/*"}
 
   s.swift_version = '5.1'
 
